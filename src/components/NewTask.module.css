@@ -1,50 +1,48 @@
 form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1.5rem;
 }
 
 textarea {
-    background: var(--gray-500);
-    color: var(--gray-300);
+  background: var(--gray-500);
+  color: var(--gray-300);
 
-    width: 40rem; 
-    border-radius: 8px;
-    border: 0;
-    height: 3.375rem; 
-    padding: 1rem;
+  width: 40rem;
+  border-radius: 8px;
+  border: 0;
+  height: 3.375rem;
+  padding: 1rem;
 }
 
-
-
 .add {
-    background: var(--blue-dark);
-    color: var(--white);
-    border-radius: 8px;
-    height: 3.375rem;
-    border: 0;
-    padding: 1rem;
-    margin-left: 0.5rem;
-    transition: 0.1s;
+  background: var(--blue-dark);
+  color: var(--white);
+  border-radius: 8px;
+  height: 3.375rem;
+  border: 0;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  transition: 0.1s;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .add:hover {
-    background: var(--blue);
+  background: var(--blue);
 }
 
 .add strong {
-    font-size: 14px;
-    font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 button {
-    background: transparent;
-    border: 0;
-    color: var(--white);
-    margin-right: 0.5rem;
+  background: transparent;
+  border: 0;
+  color: var(--white);
+  margin-right: 0.5rem;
 }
