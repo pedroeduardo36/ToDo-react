@@ -1,0 +1,39 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background: var(--gray-500);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.75rem;
+
+    transition: 0.2s
+}
+
+span {
+    color: var(--gray-200);
+    line-height: 1.4;
+}
+
+.cardWrapper:hover {
+    background: var(--gray-400);   
+}
+
+.cardWrapper img {
+    height: 1rem;
+}
+
+.textWrapper {
+    width: 40rem;
+    margin: 0 0.75rem;
+}
+
+.button {
+    height: 1.5rem;
+    width: 1.5rem;
+    size: 1.5rem;
+    border: 2px solid var(--blue);
+    border-radius: 10rem;
+}
