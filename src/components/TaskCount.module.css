@@ -1,0 +1,18 @@
+.taskCreated {
+    padding-top: 4rem;
+}
+
+.taskCreated strong {
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.taskCreated span {
+    color: var(--white);
+    background: var(--gray-400);
+    padding: 0.24mentrem 0.76rem;
+    border-radius: 10rem;
+    margin-left: 0.5rem;
+    font-size: 14px;
+    height: 1rem;
+}

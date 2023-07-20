@@ -1,13 +1,14 @@
 import { Header } from "./components/Header";
-import { NewTask } from "./components/NewTask";
+import styles from './App.module.css'
 
 import "./global.css";
+import { Body } from "./components/Body";
 
 export function App() {
   return (
-    <div>
+    <div className={styles.teste}>
       <Header />
-      <NewTask />
+      <Body />
     </div>
   );
 }

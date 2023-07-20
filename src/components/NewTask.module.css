@@ -7,7 +7,7 @@ form {
 
 textarea {
   background: var(--gray-500);
-  color: var(--gray-300);
+  color: var(--white);
 
   width: 40rem;
   border-radius: 8px;

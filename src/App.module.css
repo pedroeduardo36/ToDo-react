@@ -1,8 +1,7 @@
-div {
-    display: flex;
-    flex-direction: column;
-    width: 100wh;
-    
-    align-items: center;
-    justify-content: center;
+.teste {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
 }

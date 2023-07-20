@@ -1,6 +1,7 @@
 .header {
   background: var(--gray-700);
   heigth: 12.5rem;
+  width: 100%;
 
   display: flex;
   justify-content: center;
